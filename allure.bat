@@ -1,0 +1,1 @@
+powershell allure serve
