@@ -10,7 +10,7 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import utils.SelenideElementsFactory;
-
+import io.github.cdimascio.dotenv.Dotenv;
 import java.util.Map;
 import java.util.stream.IntStream;
 
@@ -19,6 +19,14 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class SelenideSteps {
+
+    private static Dotenv dotenv = Dotenv.configure()
+            .directory("src/test/resources/.env")
+            .ignoreIfMalformed()
+            .ignoreIfMissing()
+            .load();
+
+    private final String envHomePage = dotenv.get("HOME_PAGE");
 
     ElementsCollection langButtonsList = $$("div.doPrawej button.button_w");
     ElementsCollection helpButtonsImgList = $$("#root div div.row div span button img");
@@ -77,7 +85,7 @@ public class SelenideSteps {
         try {
             if (se.isDisplayed()) se.click();
         } catch (Exception e) {
-            open("https://master.d3f6907mja6s04.amplifyapp.com/");
+            open(envHomePage);
         }
     }
 
