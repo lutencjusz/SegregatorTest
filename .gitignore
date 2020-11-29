@@ -1,5 +1,4 @@
 /allure-results/
 /build/
-/.idea/
 /target/
 /src/test/resources/.env

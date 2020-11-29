@@ -5,15 +5,17 @@ Feature: Testowanie całego serwisu
   as user want to test whole Segregator application
 
   @HomePage
-  Scenario: Otwieranie strony domowej
+  Scenario Outline: Otwieranie strony domowej
     Given go to Home Page
     Then page HomePage visible is true
+    Examples:
 
-  Scenario: Otwieranie stron z kanydatami
+  Scenario Outline: Otwieranie stron z kanydatami
     Given go to Home Page
     Then page HomePage visible is true
     When go to linked page and click ZarzadzniePozycjami
     Then page ZarzadzniePozycjami visible is true
+    Examples:
 
   Scenario Outline: Zmiana języków
     Given go to Home Page
