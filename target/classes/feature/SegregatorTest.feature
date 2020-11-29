@@ -1,7 +1,7 @@
 # language: en
 
 @web
-Feature: Testing of Segregator Service
+Feature: Testowanie całego serwisu
   as user want to test whole Segregator application
 
   @HomePage
