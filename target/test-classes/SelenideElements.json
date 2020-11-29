@@ -1,0 +1,63 @@
+[
+  {
+    "key": "firstMapLink",
+    "value": "div:nth-child(3) div.Tilt button img"
+  },
+  {
+    "key": "listaPunktow",
+    "value": "h6 div.tytul_a"
+  },
+  {
+    "key": "GoogleMap",
+    "value": "div.GoogleMap"
+  },
+  {
+    "key": "CitiFinder",
+    "value": "input.finder"
+  },
+  {
+    "key": "HomePage",
+    "value": "h2.naglowek div.tytul"
+  },
+  {
+    "key": "descriptionWaste",
+    "value": "div.media-body h4.mt-0"
+  },
+  {
+    "key": "HomePage",
+    "value": "h2.naglowek div.tytul"
+  },
+  {
+    "key": "ZarzadzniePozycjami",
+    "value": "footer h2.naglowek_footer_left a"
+  },
+  {
+    "key": "SearchInput",
+    "value": "div.rbt div input.rbt-input-main"
+  },
+  {
+    "key": "toastSuccessMessage",
+    "value": "div.Toastify__toast--success div.Toastify__toast-body"
+  },
+  {
+    "key": "nameInput",
+    "value": "input.MuiInputBase-input.MuiInput-input"
+  },
+  {
+    "key": "komentarzInput",
+    "value": "textarea"
+  },
+  {
+    "key": "Save",
+    "value": "div.MuiGrid-root.MuiGrid-item button:nth-child(2)"
+  },
+  {
+    "key": "Reset",
+    "value": "div.MuiGrid-root.MuiGrid-item button:nth-child(1)"
+  },
+  {
+    "key": "Delete",
+    "value": "div.MuiGrid-root.MuiGrid-item button.button_w.button_w_red"
+  }
+]
+
