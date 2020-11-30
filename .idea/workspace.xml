@@ -3,11 +3,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="824a9d5f-caa9-40e6-95eb-66a9a8b2bed2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/feature/SegregatorTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feature/SegregatorTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/feature/SegregatorTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/feature/SegregatorTest.feature" afterDir="false" />
+    <list default="true" id="824a9d5f-caa9-40e6-95eb-66a9a8b2bed2" name="Default Changelist" comment="Commit with added inteliJ env">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -54,7 +72,7 @@
       <recent name="C:\Data\Java\selenide\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Check Languages">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="Feature: selenide (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/feature/selenide.feature" />
@@ -130,34 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: otworzenie strony (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/feature/selenide.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="selenide" />
-      <option name="NAME_FILTER" value="^otworzenie strony$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^otworzenie strony$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: otworzenie strony" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenide" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainTestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide" />
       <option name="PACKAGE_NAME" value="test" />
@@ -212,28 +202,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Cucumber Java.Scenario: Check Languages" />
         <item itemvalue="Cucumber Java.Scenario: Open Home Page" />
         <item itemvalue="Cucumber Java.Scenario: Open Candidate Page" />
         <item itemvalue="Cucumber Java.Feature: selenide (1)" />
-        <item itemvalue="Cucumber Java.Scenario: otworzenie strony (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -246,9 +235,37 @@
       <option name="presentableId" value="Default" />
       <updated>1606330340863</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit with added inteliJ env">
+      <created>1606661237546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606661237546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit with added inteliJ env" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit with added inteliJ env" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1492" y="191" key="#Docker" timestamp="1606771045502">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1492" y="191" key="#Docker/0.0.2560.1040/-1920.0.1280.680@0.0.2560.1040" timestamp="1606771045502" />
     <state x="121" y="0" key="#Project_Structure" timestamp="1606331533806">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -290,6 +307,14 @@
     <state width="1164" height="277" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.2560.1040@0.0.2560.1040" timestamp="1606427693411" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606331762858" />
     <state width="1240" height="271" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1280.680@0.0.2560.1040" timestamp="1606352243132" />
+    <state x="1401" y="178" key="SettingsEditor" timestamp="1606770922533">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1401" y="178" key="SettingsEditor/0.0.2560.1040/-1920.0.1280.680@0.0.2560.1040" timestamp="1606770922533" />
+    <state x="1492" y="266" key="Vcs.Push.Dialog.v2" timestamp="1606661242143">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1492" y="266" key="Vcs.Push.Dialog.v2/0.0.2560.1040/-1920.0.1280.680@0.0.2560.1040" timestamp="1606661242143" />
     <state x="1690" y="445" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1606334264290">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
